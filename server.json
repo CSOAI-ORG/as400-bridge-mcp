@@ -1,7 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.CSOAI-ORG/as400-bridge-mcp",
-  "description": "IBM i / RPG / DB2 bridge — parse, map, govern (IBM i security / SOX).",
+  "description": "IBM i / RPG / DB2 bridge \u2014 parse, map, govern (IBM i security / SOX).",
   "version": "0.1.0",
-  "packages": [{"registry_type": "pypi", "identifier": "as400-bridge-mcp", "version": "0.1.0", "transport": {"type": "stdio"}}]
+  "packages": [
+    {
+      "identifier": "as400-bridge-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
 }
